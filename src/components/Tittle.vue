@@ -21,23 +21,24 @@ export default {
     div{
         display: flex;
         justify-content: center;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        height: 2rem;
+        height: 3rem;
         background-color: #008fa2
     }
     img{
-        height: 1.5rem;
-        width: 1.5rem;
-        position: relative;
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
         top: 50%;
+        left: calc(50% - 4.5rem);
         transform: translateY(-50%);
     }
     p{
         display: inline-block;
-        line-height: 2rem;
+        line-height: 3rem;
         margin: 0;
         color: white;
     }
