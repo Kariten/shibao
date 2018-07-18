@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <header-section></header-section>
+    <tittle-bar></tittle-bar>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import header from './components/Tittle.vue'
+import Tittle from './components/Tittle.vue'
 export default {
   name: 'App',
   components: {
-    headerSection: header
+    TittleBar: Tittle
   }
 }
 </script>

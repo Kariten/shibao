@@ -25,7 +25,7 @@ export default {
         subscribe: 68
       },
       {
-        name: '哈哈哈哈adgsggggggggggggggg哈哈哈哈哈哈',
+        name: '哈哈哈哈哈',
         image: require('@/assets/logo.png'),
         price: 88,
         subscribe: 68
