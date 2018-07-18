@@ -41,16 +41,14 @@ export default {
 <style scoped>
 div.container{
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
   justify-content: space-around;
-  align-self: center;
-  /* align-content: space-between; */
   height: 100%;
-  padding-top: 0rem;
+  margin-top: 3.5rem;
+  padding: 0 1rem;
 }
 div.category{
   margin: 0.5rem;
-  width: 45%;
+  width: 43%;
 }
 </style>

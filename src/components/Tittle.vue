@@ -26,7 +26,8 @@ export default {
         left: 0;
         width: 100%;
         height: 3rem;
-        background-color: #008fa2
+        background-color: #008fa2;
+        z-index: 999;
     }
     img{
         height: 2rem;
